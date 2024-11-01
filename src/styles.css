@@ -12,7 +12,7 @@ body {
   margin: 20px auto;
   padding: 30px;
 }
-
+/* header*/
 header {
   border-bottom: 1px solid #f9f7fe;
   padding-bottom: 30px;
@@ -42,20 +42,27 @@ h2 {
   color: white;
 }
 
+/* main */
+main {
+  padding: 30px;
+  display: block;
+  border-bottom: 1px solid #f9f7fe;
+}
+
 .main-flex {
   display: flex;
   justify-content: space-between;
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 45px;
   line-height: 48px;
 }
 
 p {
   font-size: 16px;
   color: rgba(39, 33, 66, 0.4);
-  line-height: 24px;
+  line-height: 20px;
   font-weight: 500;
 }
 
@@ -85,4 +92,19 @@ p {
 .weather-icon {
   font-size: 60px;
   display: block;
+}
+
+/* footer */
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+a {
+  text-decoration: none;
+  color: #885df1;
+  cursor: pointer;
 }
