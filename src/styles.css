@@ -41,3 +41,48 @@ h2 {
   border-radius: 6px;
   color: white;
 }
+
+.main-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 48px;
+}
+
+p {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.weather-details {
+  color: #f65282;
+}
+
+.large-temp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.temp-no {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+  display: block;
+}
+
+.deg {
+  font-size: 20px;
+  display: block;
+  color: #000;
+  margin-top: 6px;
+}
+
+.weather-icon {
+  font-size: 60px;
+  display: block;
+}
