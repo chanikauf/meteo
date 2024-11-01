@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f9f7fe;
 }
 
@@ -11,4 +11,33 @@ body {
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   margin: 20px auto;
   padding: 30px;
+}
+
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: #885df1;
+  padding-bottom: 30px;
+}
+
+.city-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-submit {
+  background: #885df1;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
 }
