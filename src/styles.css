@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f9f7fe;
+  background-color: #eae3e3;
 }
 
 .container {
@@ -8,23 +8,23 @@ body {
   border: none;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  box-shadow: 0 30px 50px rgb(45 9 92 / 8%);
   margin: 20px auto;
   padding: 30px;
 }
 /* header*/
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #eae3e3;
   padding-bottom: 30px;
 }
 
 h2 {
-  color: #885df1;
+  color: #20366b;
   padding-bottom: 30px;
 }
 
 .city-input {
-  background-color: #f9f7fe;
+  background-color: #eae3e3;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -33,7 +33,7 @@ h2 {
 }
 
 .search-submit {
-  background: #885df1;
+  background: #20366b;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -46,7 +46,7 @@ h2 {
 main {
   padding: 30px;
   display: block;
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #eae3e3;
 }
 
 .main-flex {
@@ -62,13 +62,13 @@ h1 {
 
 p {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(45, 9, 92, 0.4);
   line-height: 20px;
   font-weight: 500;
 }
 
 .weather-details {
-  color: #f65282;
+  color: #dd7777;
 }
 
 .large-temp {
@@ -86,7 +86,7 @@ p {
 .deg {
   font-size: 20px;
   display: block;
-  color: #000;
+  color: #2d095c;
   margin-top: 6px;
 }
 
@@ -98,14 +98,14 @@ p {
 /* footer */
 
 footer {
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid #eae3e3;
   padding: 30px 0;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(45, 9, 92, 0.6);
 }
 
 a {
   text-decoration: none;
-  color: #885df1;
+  color: #20366b;
   cursor: pointer;
 }
