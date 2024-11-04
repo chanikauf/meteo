@@ -55,6 +55,7 @@ main {
 }
 
 h1 {
+  color: #20366b;
   font-size: 68px;
   line-height: 40px;
   margin: 20px 0 50px;
@@ -72,6 +73,7 @@ p {
 }
 
 .large-temp {
+  color: #20366b;
   display: flex;
   justify-content: space-evenly;
 }
