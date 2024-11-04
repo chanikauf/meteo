@@ -97,6 +97,38 @@ p {
   width: 88px;
 }
 
+/* Weather forecast */
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(45, 9, 92, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 48px;
+}
+
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  color: #dd7777;
+  margin-top: 10px;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
 /* footer */
 
 footer {
