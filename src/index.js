@@ -62,7 +62,15 @@ searchCity("London");
 
 //Forecast search
 
-function displayForecast() {
+function getForecast(city) {
+  let apiKey = `2d0a8749coc87c3f1a0at1425f4adb36`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+function displayForecast(response) {
+  console.log(response.data);
+
   let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHTML = "";
 
@@ -86,3 +94,4 @@ function displayForecast() {
 }
 
 displayForecast();
+getForecast("London");
