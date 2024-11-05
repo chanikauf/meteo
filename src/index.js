@@ -16,8 +16,10 @@ function refreshWeather(response) {
   cityElement.innerHTML = response.data.city;
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-  windElement.innerHTML = response.data.wind.speed;
+  windElement.innerHTML = `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
+
+  getForecast(response.data.city);
 }
 
 function formatDate(date) {
@@ -94,4 +96,3 @@ function displayForecast(response) {
 }
 
 displayForecast();
-getForecast("London");
